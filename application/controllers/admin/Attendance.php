@@ -1597,7 +1597,7 @@ class Attendance extends MY_Controller
             ->select('user_id,first_name,last_name')
             ->where('is_active', 1)
             ->where("user_role_id", 3)
-            ->where_in('company_id', $org)
+            ->where_in('company_id', $org) 
             ->get('xin_employees')
             ->result();
         }

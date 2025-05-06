@@ -65,7 +65,6 @@
 				$row_count = 0;
 				$total_rows = count($xin_employees);
 				foreach ($xin_employees as $r) { 
-					// dd($r);
 					$late_start = $this->db->select('late_start')
 					->get('emp_shift_schedule')
 					->row('late_start');

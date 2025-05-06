@@ -512,7 +512,7 @@ $(document).ready(function() {
                             doc.setLineWidth(1);
                             doc.setDrawColor(0);
                             doc.setLineDash([]);
-                            doc.line(40, 90, 800, 90);
+                            doc.line(40, 90, 800, 90); 
 
                             doc.setFontSize(12);
                             doc.text("Reporting Date: " + formattedRange, 40, 105, { align: 'left' });

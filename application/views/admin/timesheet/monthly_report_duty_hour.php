@@ -64,7 +64,6 @@
 				$row_count = 0;
 				$total_rows = count($xin_employees);
 				foreach ($xin_employees as $r) { 
-
 					if ($row_count > 0 && $row_count % 15 == 0) {
 						echo '<tr class="page-break"></tr>';?> 
 						<!-- Add company header on new page -->
